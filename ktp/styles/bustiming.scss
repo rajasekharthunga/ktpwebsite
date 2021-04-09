@@ -1,0 +1,72 @@
+.section-bustimings{
+    padding: 20px;
+    margin-top: 4em;
+}
+.table1{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 30px;
+}
+.table{
+    border: 2px solid grey;
+    width: 70%;
+    margin: 10px 0;
+    border-collapse: collapse;
+    background-color: rgb(240, 236, 234);
+    text-transform: capitalize;
+    thead{
+        tr{
+            border-bottom: 2px solid black;
+            th{
+                width: 20%;
+                text-align: left;
+                padding: 8px;
+            }
+        }
+    }
+    tbody{
+        font-family:'Merriweather', serif ;
+        tr{
+            border-bottom: 2px solid black;
+            th{
+                text-align: left;
+                padding: 8px;
+            }
+        }
+    }
+}
+.first-table{
+    box-shadow: 10px -7px 2px 1px rgba(113, 113, 116, 0.2);
+}
+.second-table{
+    box-shadow: -7px 10px 2px 1px rgba(113, 113, 116, 0.2);
+}
+.bus-route-via{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.bus-route-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    color: $Orange;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:950px){
+    .table1{
+        display: block;
+        .table{
+            width: 100%;
+        }
+    }
+    .second-table-div{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

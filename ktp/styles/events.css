@@ -1,0 +1,37 @@
+.section-events h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-bottom: 10px;
+}
+
+.section-events .primary-events-div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  width: 100%;
+  height: auto;
+}
+
+.section-events .primary-events-div .event-div {
+  width: 10%;
+}
+
+.section-events .primary-events-div .event-div img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section-events .primary-events-div .event-div h3 {
+  font-size: 75%;
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=events.css.map */

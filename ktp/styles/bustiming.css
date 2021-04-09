@@ -1,0 +1,62 @@
+.section-bustimings {
+  padding: 20px;
+}
+
+.table {
+  border: 2px solid grey;
+  width: 70%;
+  margin: 10px auto;
+  border-collapse: collapse;
+  background-color: #f0ecea;
+  -webkit-box-shadow: 10px -7px 2px 1px rgba(113, 113, 116, 0.2);
+          box-shadow: 10px -7px 2px 1px rgba(113, 113, 116, 0.2);
+}
+
+.table thead tr {
+  border-bottom: 2px solid black;
+}
+
+.table thead tr th {
+  width: 20%;
+  text-align: left;
+  padding: 8px;
+}
+
+.table tbody tr {
+  border-bottom: 2px solid black;
+}
+
+.table tbody tr th {
+  text-align: left;
+  padding: 8px;
+}
+
+.bus-route-via {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+}
+
+.bus-route-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+  color: #Orange;
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=bustiming.css.map */

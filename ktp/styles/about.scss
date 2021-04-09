@@ -1,0 +1,46 @@
+.section-about{
+    margin-top: 100px;
+    padding: 40px 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    img{
+        width: unquote("max(250px, 35vw)");
+        height: fit-content;
+        object-fit: contain;
+        float: left;
+        margin-right: 2rem;
+        box-shadow: -4px -4px 2px 1px rgba(0, 0, 0, 0.5);
+    }
+    .section-text{
+        .about-title{
+            text-transform: uppercase;
+            font-size: 24px;
+            font-family: "Merriweather", serif;
+            letter-spacing: 4px;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 24px;
+            color: $Orange;
+        }
+        padding: 20px;
+        line-height: 30px;
+        div{ 
+            max-width: 62ch;
+            margin: auto;
+        }
+    }
+}
+
+@media only screen and (max-width:750px){
+    .section-about{
+        img{
+            display: none;
+        }
+        .section-text{
+            div{
+                width: 100%;
+            }
+        }
+    }
+}
